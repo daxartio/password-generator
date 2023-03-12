@@ -98,7 +98,7 @@ function App() {
 		width: "100%",
 	};
 	React.useEffect(() => {
-		generateNew();  // eslint-disable-next-line
+		generateNew(); // eslint-disable-next-line
 	}, [pwdLenght, useLowercase, useNumbers, useUppercase, useSimbols]);
 	return (
 		<AppRoot>
